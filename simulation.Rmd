@@ -16,7 +16,7 @@ variance equals to the exponential distribution variance divided by n (40)
 
 The probability density function of the exponential is given by:  
 
-<a href="http://www.codecogs.com/eqnedit.php?latex=f(x;\lambda&space;)&space;=&space;\begin{Bmatrix}&space;\lambda&space;e^{-\lambda&space;x}&space;&&space;x&space;\geq&space;0\\&space;0&space;&&space;x&space;<&space;0&space;\end{Bmatrix}" target="_blank"><img src="http://latex.codecogs.com/gif.latex?f(x;\lambda&space;)&space;=&space;\begin{Bmatrix}&space;\lambda&space;e^{-\lambda&space;x}&space;&&space;x&space;\geq&space;0\\&space;0&space;&&space;x&space;<&space;0&space;\end{Bmatrix}" title="f(x;\lambda ) = \begin{Bmatrix} \lambda e^{-\lambda x} & x \geq 0\\ 0 & x < 0 \end{Bmatrix}" /></a>
+![Exponential Distribution](exponential.gif)
 
 This distribution has a theoretical mean given by the lambda parameter as 1 / lambda and
 variance equals 1 / (lambda ^ 2).   

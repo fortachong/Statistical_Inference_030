@@ -14,7 +14,7 @@ variance equals to the exponential distribution variance divided by n (40)
 
 The probability density function of the exponential is given by:  
 
-<a href="http://www.codecogs.com/eqnedit.php?latex=f(x;\lambda&space;)&space;=&space;\begin{Bmatrix}&space;\lambda&space;e^{-\lambda&space;x}&space;&&space;x&space;\geq&space;0\\&space;0&space;&&space;x&space;<&space;0&space;\end{Bmatrix}" target="_blank"><img src="http://latex.codecogs.com/gif.latex?f(x;\lambda&space;)&space;=&space;\begin{Bmatrix}&space;\lambda&space;e^{-\lambda&space;x}&space;&&space;x&space;\geq&space;0\\&space;0&space;&&space;x&space;<&space;0&space;\end{Bmatrix}" title="f(x;\lambda ) = \begin{Bmatrix} \lambda e^{-\lambda x} & x \geq 0\\ 0 & x < 0 \end{Bmatrix}" /></a>
+![Exponential Distribution](exponential.gif)
 
 This distribution has a theoretical mean given by the lambda parameter as 1 / lambda and
 variance equals 1 / (lambda ^ 2).   
@@ -45,7 +45,7 @@ exp_var <- var(exp_dist)
 exp_std <- sd(exp_dist)
 ```
 
-From this simulation the mean is 5.04 and the variance is 27.68
+From this simulation the mean is 4.91 and the variance is 22.87
 
 ## Simulation of n exponentials
 
@@ -80,14 +80,14 @@ The distribution of the sample mean resembles a normal distribution. Lets compar
 
 Statistic  |  Theoretical exponential | Simulation of exponential | Theoretical CLT              | Sample mean, n = 40
 -----------|-------------------------:|--------------------------:|-----------------------------:|------------------:
-Mean       | 5        | 5.035578      | 5            | 5.002316
-Variance   | 25    | 27.6794       | 0.625   | 0.6601529
-Std        | 5        | 5.261122       | 0.7905694 | 0.8124979
+Mean       | 5        | 4.910374      | 5            | 4.996842
+Variance   | 25    | 22.86759       | 0.625   | 0.6422275
+Std        | 5        | 4.782007       | 0.7905694 | 0.801391
 
 According to the central limit theorem the theoretical mean of the sample
 distribution of the sample mean is the mean of the theoretical exponential, in this
-case 5, in our simulation we have a mean of 5.002316. The theoretical
-standard deviation of the sample distribution of the sample mean is ` 5 / sqrt(40) ` which is 0.7905694, accordingly, in our simulation we have a standard deviation of 0.8124979
+case 5, in our simulation we have a mean of 4.996842. The theoretical
+standard deviation of the sample distribution of the sample mean is ` 5 / sqrt(40) ` which is 0.7905694, accordingly, in our simulation we have a standard deviation of 0.801391
 
 Lets overlay a normal distribution `N(mean = 5, std = 5 / sqrt(40))` over the histogram
 
